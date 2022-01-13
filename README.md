@@ -1,8 +1,8 @@
 ## KitaBisa Web Service
 
 Requirement : 
--Composer v1.10.1+
--PHP 7+
+- Composer v1.10.1+
+- PHP 7+
 
 How to run project : 
 
@@ -37,6 +37,18 @@ php artisan key:generate
 php artisan serve
 </code></pre>
 - Access to http://127.0.0.1:8000/
+
+Test API Send Notification : 
+- You can try Sending Notification using api
+- Url : http://127.0.0.1:8000/api/sendSmsNotification
+- Method : POST
+- Json Body : 
+</code></pre>
+{
+    "dstPhoneNumber": "08XXXXXXXX",
+    "message": "Sms Notification from Kitabisa.com" 
+}
+<pre><code>
 
 How run unit test : 
 
