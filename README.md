@@ -19,15 +19,16 @@ SMS_VENDOR="vendor a"
 - You can try the test with the 3 types of vendors that have been provided
 <table>
     <tr>
-        <td>vendor a</td>
+        <td>"vendor a"</td>
     </tr>
     <tr>
-        <td>vendor b</td>
+        <td>"vendor b"</td>
     </tr>
     <tr>
-        <td>vendor c</td>
+        <td>"vendor c"</td>
     </tr>
 </table>
+
 - Run code below using terminal
 <pre><code>
 php artisan key:generate
