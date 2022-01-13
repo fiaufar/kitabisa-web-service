@@ -38,17 +38,19 @@ php artisan serve
 </code></pre>
 - Access to http://127.0.0.1:8000/
 
+
 Test API Send Notification : 
+
 - You can try Sending Notification using api
 - Url : http://127.0.0.1:8000/api/sendSmsNotification
 - Method : POST
 - Json Body : 
-</code></pre>
+<pre><code>
 {
     "dstPhoneNumber": "08XXXXXXXX",
     "message": "Sms Notification from Kitabisa.com" 
 }
-<pre><code>
+</code></pre>
 
 How run unit test : 
 
