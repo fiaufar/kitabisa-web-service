@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('/sendSmsNotification', [\App\Http\Controllers\API\SmsNotificationController::class, 'sendNotification']);
+Route::post('/sendSmsNotification', [\App\Http\Controllers\API\SmsNotificationController::class, 'sendNotification'])->name('sms-notif');

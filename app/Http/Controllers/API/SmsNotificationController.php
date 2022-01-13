@@ -12,11 +12,13 @@ class SmsNotificationController extends Controller
     {
         $dstPhoneNumber = $request->input('dstPhoneNumber');
         $message = $request->input('message');
-
+// dd([$dstPhoneNumber,
+// $message]);
         $res  = ServicesSmsNotificationService::sendNotification(
             $dstPhoneNumber,
             $message
         );
+        // dd($res);
 
         if ($res) {
             return response()->json(['message' => $res], 200);
