@@ -1,4 +1,4 @@
-## KitaBisa Web Service
+## Simple Architecture for managing third party Notification Service
 
 Requirement : 
 - Composer v1.10.1+
