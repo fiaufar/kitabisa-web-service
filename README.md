@@ -49,7 +49,7 @@ Test API Send Notification :
 <pre><code>
 {
     "dstPhoneNumber": "08XXXXXXXX",
-    "message": "Sms Notification from Kitabisa.com" 
+    "message": "Sms Notification from fiaufar" 
 }
 </code></pre>
 
